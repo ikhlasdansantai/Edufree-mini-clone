@@ -31,7 +31,7 @@ export default function KursusPage() {
 
   return (
     <main className="mt-[7.1rem] mb-40 min-h-[100dvh]">
-      <section className="breadcrump bg-[#EEF4FA] p-10">
+      <section className="breadcrumb bg-[#EEF4FA] p-10">
         <span className="max-w-[90rem] mx-auto block">Home {">"} Kursus</span>
       </section>
 

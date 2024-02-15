@@ -7,7 +7,7 @@ import Jumbotron from "@/app/_components/jumbotron";
 export default function CourseDetail() {
   return (
     <main className="mb-40 mt-[7.1rem] text-xl min-h-[100dvh]">
-      <section className="breadcrump bg-[#EEF4FA] p-10">
+      <section className="breadcrumb bg-[#EEF4FA] p-10">
         <span className="max-w-[90rem] mx-auto block">
           Home {">"} Kursus {">"} Detail kursus
         </span>
