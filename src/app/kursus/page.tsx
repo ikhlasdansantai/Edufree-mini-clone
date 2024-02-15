@@ -30,17 +30,17 @@ export default function KursusPage() {
   const workCategories = ["Semua", "UI Design", "Programming", "Marketing", "Soft Skill", "Network"];
 
   return (
-    <main className="my-40 min-h-[100dvh]">
-      <div className="breadcrump">
-        <span>Home Kursus</span>
-      </div>
+    <main className="mt-[7.1rem] mb-40 min-h-[100dvh]">
+      <section className="breadcrump bg-[#EEF4FA] p-10">
+        <span className="max-w-[90rem] mx-auto block">Home {">"} Kursus</span>
+      </section>
 
       <section id="main-section" className="max-w-[90rem] mx-auto my-20">
         <div className="main__header w-full mx-auto flex justify-center flex-col items-center gap-10">
           <input type="search" placeholder="Cari Kursus..." className="rounded-md border-2 w-[40rem] py-4 px-4 mx-auto border-[#282938]/60 text-[#282938]" />
           <ul className="flex items-center gap-10 mx-auto font-medium">
             {workCategories.map((category, index) => (
-              <li key={index} className={`text-[${category === "Semua" ? "#2405F2" : "#282938"}]`}>
+              <li key={index} className={`${category === "Semua" ? "text-[#2405F2]" : "text-[#282938]"}`}>
                 {category}
               </li>
             ))}
