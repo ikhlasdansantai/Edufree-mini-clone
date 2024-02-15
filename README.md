@@ -15,4 +15,5 @@ Available Page:
 - 404 Not Found Page
 - Course Page Detail
 
+live demo (beta): https://edufree-mini-slicing.vercel.app/
 Web Design: https://www.figma.com/community/file/1210964542508506746 🔥
