@@ -2,7 +2,7 @@
 
 # Slicing submit
 
-This website is currently undergoing development for full mobile responsiveness. I am actively working on optimizing the layout and functionalities for all devices. Stay tuned for updates🚀
+This website is currently undergoing development for full mobile responsiveness. but at some breakpoints, the web layout already looks very good, u can cheek it. I am actively working on optimizing the layout and functionalities for all devices. Stay tuned for updates🚀
 
 TechStack:
 - Nextjs with typescript
