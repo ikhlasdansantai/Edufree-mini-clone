@@ -9,9 +9,9 @@ import Image from "next/image";
 
 function HeaderContentFooter() {
   return (
-    <section className="bg-[#EEF4FA] min-h-[20dvh] flex justify-center items-center">
-      <div className="max-w-[90rem] flex justify-between items-end w-full">
-        <ul className="flex gap-10">
+    <section className="bg-[#EEF4FA] min-h-[20dvh] flex justify-center items-center max-sm:px-4 max-sm:py-10">
+      <div className="max-w-[90rem] flex flex-wrap justify-between items-end w-full">
+        <ul className="flex flex-wrap gap-10">
           <li>
             <p className="text-3xl font-semibold text-[#282938]">21.000+</p>
             <p>Siswa Terdaftar</p>
@@ -26,7 +26,7 @@ function HeaderContentFooter() {
           </li>
         </ul>
 
-        <ul className="flex flex-wrap items-center gap-10">
+        <ul className="flex flex-wrap justify-between items-center gap-6 md:gap-10 max-sm:mt-10">
           <li>
             <figure className="w-[8rem]">
               <Image src={HeaderFootIcon1} alt="header__ico__1" style={{ width: "100%", height: "100%" }} className="block max-w-full" />
@@ -61,12 +61,12 @@ function HeaderContentFooter() {
 export default function HeaderContent() {
   return (
     <>
-      <section id="header__container" className="bg-[#1C1E53] min-h-[80dvh] flex items-center justify-center">
-        <div className="header__contents max-w-[90rem] mx-auto grid grid-cols-2 items-center gap-20">
+      <section id="header__container" className="bg-[#1C1E53] md:min-h-[80dvh] flex items-center justify-center pt-28">
+        <div className="header__contents max-w-[90rem] mx-auto grid md:grid-cols-2 items-center gap-20 max-sm:p-4">
           <div className="header__titles text-white">
-            <h1 className="w-[25ch] text-5xl leading-relaxed font-semibold">Bangun dan Wujudkan Cita Bersama EDUFREE</h1>
-            <p className=" leading-loose my-10">EDUFREE adalah sebuah layanan kursus dan pelatihan gratis secara online yang bertujuan untuk membantu kamu meraih cita di bidang teknologi.</p>
-            <div className="buttons space-x-8">
+            <h1 className="lg:w-[25ch] text-2xl md:text-5xl leading-relaxed font-semibold">Bangun dan Wujudkan Cita Bersama EDUFREE</h1>
+            <p className=" leading-loose my-4 md:my-10">EDUFREE adalah sebuah layanan kursus dan pelatihan gratis secara online yang bertujuan untuk membantu kamu meraih cita di bidang teknologi.</p>
+            <div className="flex space-x-8">
               <Button variant="primary" size="lg">
                 Lihat Kursus
               </Button>

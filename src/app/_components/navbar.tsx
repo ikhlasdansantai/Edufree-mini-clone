@@ -22,7 +22,7 @@ export default function Navbar() {
         <Link href="/" className="font-bold text-2xl cursor-pointer hover:opacity-90">
           [Edufree]
         </Link>
-        <ul className="flex justify-between items-center gap-4 mr-10 space-x-4">
+        <ul className="flex justify-between items-center gap-4 mr-10 space-x-4 max-md:hidden">
           {navLinks.map((nav) => (
             <li key={nav.label} className="hover:opacity-80 cursor-pointer">
               <Link href={nav.href}>{nav.label}</Link>

@@ -30,9 +30,9 @@ export default function Benefits() {
   ];
 
   return (
-    <section id="benefits" className="max-w-[90rem] mx-auto my-40">
-      <h2 className="text-center text-[#282938] text-4xl w-[27ch] mx-auto font-semibold leading-relaxed">Keuntungan Bergabung Dengan E-Learning EDUFREE</h2>
-      <div className="benefit__cards mt-10 grid grid-cols-3 gap-10">
+    <section id="benefits" className="max-w-[90rem] mx-auto my-20 md:my-40">
+      <h2 className="text-center text-[#282938] text-2xl md:text-4xl lg:w-[27ch] mx-auto font-semibold leading-relaxed">Keuntungan Bergabung Dengan E-Learning EDUFREE</h2>
+      <div className="benefit__cards mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-10 p-4">
         {cardDatas.map((data, index) => (
           <div key={data.title} className="benefit__card bg-[#F4F6FC] text-[#282938] p-8 rounded-lg">
             <figure className="w-8 relative">

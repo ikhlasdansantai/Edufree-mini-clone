@@ -19,10 +19,10 @@ export default function CourseRecommendations() {
     },
   ];
   return (
-    <section id="course__recommendations" className="max-w-[90rem] mx-auto my-40">
-      <div className="course__reco__header flex justify-between items-center">
-        <h2 className="text-[#282938] text-4xl w-[20ch] font-semibold leading-relaxed space-y-10">Rekomendasi Kursus Untukmu</h2>
-        <div className="right__contents flex gap-4 items-center">
+    <section id="course__recommendations" className="max-w-[90rem] mx-auto my-20 md:my-40 max-sm:p-4">
+      <div className="course__reco__header flex flex-wrap justify-between items-center max-sm:gap-4">
+        <h2 className="text-[#282938] text-2xl md:text-4xl md:w-[20ch] font-semibold leading-relaxed space-y-10">Rekomendasi Kursus Untukmu</h2>
+        <div className="right__contents flex flex-wrap gap-4 items-center">
           <Select>
             <SelectTrigger className="w-[180px] outline-none">
               <SelectValue placeholder="Category" />
@@ -38,7 +38,7 @@ export default function CourseRecommendations() {
           </Button>
         </div>
       </div>
-      <div className="cards grid grid-cols-3 mt-20 gap-20">
+      <div className="cards grid md:grid-cols-2 lg:grid-cols-3 mt-10 md:mt-20 gap-20">
         {cardDatas.map((data, index) => (
           <CourseCard data={data} key={index} />
         ))}

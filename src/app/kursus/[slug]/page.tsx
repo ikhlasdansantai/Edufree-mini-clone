@@ -6,23 +6,23 @@ import Jumbotron from "@/app/_components/jumbotron";
 
 export default function CourseDetail() {
   return (
-    <main className="mb-40 mt-[7.1rem] text-xl min-h-[100dvh]">
-      <section className="breadcrumb bg-[#EEF4FA] p-10">
-        <span className="max-w-[90rem] mx-auto block">
+    <main className="md:mb-40 mt-[7.1rem] text-xl min-h-[100dvh]">
+      <section className="breadcrumb bg-[#EEF4FA] px-4 py-10 md:p-10">
+        <span className="max-w-[90rem] mx-auto block text-base">
           Home {">"} Kursus {">"} Detail kursus
         </span>
       </section>
 
-      <section className="max-w-[90rem] mt-20 mx-auto">
-        <p className="text-[#282938]">web design dan development</p>
-        <h1 className="text-[#282938] font-semibold text-4xl my-4">Dasar Pemrograman Web</h1>
-        <p className="text-[#282938] text-xl">Mengenal hal-hal dasar pembuatan website</p>
+      <section className="max-w-[90rem] mt-10 md:mt-20 mx-auto max-sm:p-4">
+        <p className="text-[#282938] text-base">web design dan development</p>
+        <h1 className="text-[#282938] font-semibold text-2xl md:text-4xl my-1 md:my-4">Dasar Pemrograman Web</h1>
+        <p className="text-[#282938] text-base md:text-xl ">Mengenal hal-hal dasar pembuatan website</p>
 
-        <figure className=" mx-auto my-10 ">
+        <figure className=" mx-auto my-6 md:my-10 ">
           <Image src={BlogMainImg} alt="blog thumb" style={{ width: "100%", height: "100%" }} className="block max-w-full" />
         </figure>
 
-        <div className="blog__contents space-y-8 text-[#282938] max-w-5xl mx-auto mt-20">
+        <div className="blog__contents space-y-4 md:space-y-8 text-[#282938] max-w-5xl mx-auto mt-10 md:mt-20 text-base">
           <h2 className="font-semibold text-2xl">Tentang Kursus</h2>
           <p>
             Pemrograman web atau web programming adalah istilah yang berkaitan erat dengan website dan internet. Mengapa begitu? Karena web programming adalah salah satu proses pembuatan website untuk keperluan internet yang biasanya
